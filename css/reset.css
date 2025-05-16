@@ -1,0 +1,24 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 16px;
+font-family: "Noto Sans JP", sans-serif;
+}
+
+a{
+display: inline-block;
+text-decoration: none;
+color: inherit;
+}
+
+ul li{
+list-style: none;
+}
+
+img{
+width: 100%;
+height: auto;
+object-fit: contain;
+vertical-align: bottom;
+}
