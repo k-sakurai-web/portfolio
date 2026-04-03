@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K SAKURAI | Web Portfolio</title>
+  <meta name="description" content="K SAKURAI のウェブ制作ポートフォリオ。Figmaデザイン→WordPress、LP制作、サイトリニューアルで集客・成約UPをサポートします。" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="header__inner container">
+      <a href="#hero" class="header__logo">K <span>SAKURAI</span></a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#works"   class="nav__link">Works</a></li>
+          <li><a href="#skills"  class="nav__link">Skills</a></li>
+          <li><a href="#about"   class="nav__link">About</a></li>
+          <li><a href="#price"   class="nav__link">Price</a></li>
+          <li><a href="#contact" class="nav__link nav__cta">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-text" aria-hidden="true">PORTFOLIO</div>
+    <div class="hero__content container">
+      <div class="hero__label fade-in">Web Creator / WordPress Developer</div>
+      <h1 class="hero__name fade-in delay-1">
+        K<br /><span>SAKURAI</span>
+      </h1>
+      <div class="hero__portfolio-word fade-in delay-2">
+        <span>P</span><span>o</span><span>r</span><span class="accent">t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span>
+      </div>
+      <p class="hero__catch fade-in delay-3">
+        古いサイトを最新仕様にリノベーション。<br />
+        集客 &amp; 成約UPをともに実現します。
+      </p>
+      <div class="hero__actions fade-in delay-4">
+        <a href="#works"   class="btn btn--primary">実績を見る</a>
+        <a href="#contact" class="btn btn--ghost">お問い合わせ</a>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== WORKS ========== -->
+  <section class="section works" id="works">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__en">works</span>
+        <h2 class="section__title">制作実績</h2>
+      </div>
+
+      <div class="works__grid">
+
+        <article class="work-card reveal" data-delay="0">
+          <a href="https://www.e-eclat.jp/" target="_blank" rel="noopener noreferrer">
+          <div class="work-card__thumb work-card__thumb--eclat">
+            <span class="work-card__tag">Shop</span>
+            <div class="work-card__overlay eclat">
+              <span class="work-card__view">View</span>
+            </div>
+          </div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">株式会社エクラ</h3>
+            <p class="work-card__desc">パーソナルカラー教材販売サイト(ECなし)。古いサイトからのリニューアルで、デザイン刷新+レスポンシブ対応+SEO対策を実施。</p>
+            <div class="work-card__tags">
+              <span>WordPress</span><span>Figma</span><span>SEO</span>
+            </div>
+          </div>
+          </a>
+        </article>
+
+        <article class="work-card reveal" data-delay="1">
+          <a href="https://kotameshi.xsrv.jp/" target="_blank" rel="noopener noreferrer">
+          <div class="work-card__thumb work-card__thumb--sora">
+            <span class="work-card__tag">Corporate</span>
+            <div class="work-card__overlay">
+              <span class="work-card__view">View</span>
+            </div>
+          </div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">ソラエナジー株式会社</h3>
+            <p class="work-card__desc">エネルギー関連企業のコーポレートサイト。信頼感を重視したクリーンなデザイン。(サンプル)</p>
+            <div class="work-card__tags">
+              <span>WordPress</span><span>Figma</span><span>Responsive</span>
+            </div>
+          </div>
+          </a>
+        </article>
+
+        <article class="work-card reveal" data-delay="2">
+          <a href="https://recruit.cutroom-hair.com/" target="_blank" rel="noopener noreferrer">
+          <div class="work-card__thumb work-card__thumb--cutroom">
+            <span class="work-card__tag">Recruit</span>
+            <div class="work-card__overlay">
+              <span class="work-card__view">View</span>
+            </div>
+          </div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">Cutroom</h3>
+            <p class="work-card__desc">美容室向け採用サイト。ターゲット層に刺さるビジュアルと応募フォームで求人を強化。</p>
+            <div class="work-card__tags">
+              <span>Wordpress</span><span>JavaScript</span><span>Responsive</span>
+            </div>
+          </div>
+          </a>
+        </article>
+
+        <article class="work-card work-card--coming reveal" data-delay="3">
+          <div class="work-card__thumb work-card__thumb--coming">
+            <span class="work-card__tag">LP</span>
+          </div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">Coming Soon</h3>
+            <p class="work-card__desc">順次追加予定</p>
+            <div class="work-card__tags"><span>更新中</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__en">skills</span>
+        <h2 class="section__title">できること</h2>
+      </div>
+
+      <div class="skills__grid">
+
+        <div class="skill-card reveal" data-delay="0">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="48" height="48" rx="12" fill="rgba(192,57,43,0.15)"/>
+              <path d="M10 12l4 24 10 3 10-3 4-24H10z" stroke="#C0392B" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M18 18h12M17 24h14M20 30l4 2 4-2" stroke="#C0392B" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__title">HTML / CSS / JS</h3>
+          <p class="skill-card__desc">セマンティックなマークアップ、Sass、アニメーション実装まで。表示速度を意識したコーディング。</p>
+        </div>
+
+        <div class="skill-card reveal" data-delay="1">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="48" height="48" rx="12" fill="rgba(192,57,43,0.15)"/>
+              <circle cx="24" cy="24" r="10" stroke="#C0392B" stroke-width="2"/>
+              <circle cx="24" cy="24" r="4" fill="#C0392B"/>
+              <path d="M24 10v4M24 34v4M10 24h4M34 24h4" stroke="#C0392B" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__title">WordPress</h3>
+          <p class="skill-card__desc">オリジナルテーマをゼロから開発。PHPカスタマイズ・プラグイン設定・保守まで一貫対応。</p>
+        </div>
+
+        <div class="skill-card reveal" data-delay="2">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="48" height="48" rx="12" fill="rgba(192,57,43,0.15)"/>
+              <rect x="12" y="14" width="10" height="20" rx="5" stroke="#C0392B" stroke-width="2"/>
+              <rect x="26" y="14" width="10" height="10" rx="5" stroke="#C0392B" stroke-width="2"/>
+              <rect x="26" y="28" width="10" height="6" rx="3" stroke="#C0392B" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__title">Figma デザイン</h3>
+          <p class="skill-card__desc">ワイヤーフレームからビジュアルデザインまで。デザインデータを忠実にコーディングに落とし込み。</p>
+        </div>
+
+        <div class="skill-card reveal" data-delay="3">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="48" height="48" rx="12" fill="rgba(192,57,43,0.15)"/>
+              <path d="M12 36l8-12 6 8 5-6 5 10" stroke="#C0392B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="36" cy="14" r="4" stroke="#C0392B" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__title">SEO / マーケティング</h3>
+          <p class="skill-card__desc">HTTPS化・CTA最適化・OGP設定・ヒートマップ分析など、成約につながる設計を提案。</p>
+        </div>
+
+        <div class="skill-card reveal" data-delay="4">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="48" height="48" rx="12" fill="rgba(192,57,43,0.15)"/>
+              <rect x="10" y="12" width="28" height="18" rx="2" stroke="#C0392B" stroke-width="2"/>
+              <path d="M18 30v6M30 30v6M14 36h20" stroke="#C0392B" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__title">LP 制作</h3>
+          <p class="skill-card__desc">成約率を意識したランディングページ。CTA配置・視線誘導・モバイル最適化まで対応。</p>
+        </div>
+
+        <div class="skill-card reveal" data-delay="5">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="48" height="48" rx="12" fill="rgba(192,57,43,0.15)"/>
+              <rect x="10" y="14" width="18" height="12" rx="2" stroke="#C0392B" stroke-width="2"/>
+              <rect x="20" y="28" width="18" height="8" rx="2" stroke="#C0392B" stroke-width="2"/>
+              <path d="M16 26v2M32 14v14" stroke="#C0392B" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 2"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__title">レスポンシブ対応</h3>
+          <p class="skill-card__desc">モバイルファーストで設計。スマホ・タブレット・PCで最適な表示を実現します。</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__en">about</span>
+        <h2 class="section__title">プロフィール</h2>
+      </div>
+
+      <div class="about__inner">
+        <div class="about__photo-wrap reveal">
+          <div class="about__photo-frame">
+            <div class="about__photo-placeholder" aria-label="K SAKURAI プロフィール写真"><img src="asset/portrate.jpg" alt=""></div>
+          </div>
+          <div class="about__socials">
+            <a href="https://x.com/kWebRemodeling" target="_blank" rel="noopener noreferrer" class="about__social-link" aria-label="X (Twitter)">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="about__text reveal delay-1">
+          <h3 class="about__name">K SAKURAI<span class="about__name-ja">櫻井 慧</span></h3>
+          <p class="about__tagline">"共に作る"ウェブサイト制作</p>
+          <p class="about__bio">
+            埼玉を拠点に、個人事業・中小企業向けのウェブサイト制作を行っています。<br /><br />
+            Figmaでデザインし、WordPressのオリジナルテーマとして実装。<br />
+            古いサイトを最新仕様にリノベーションして、集客・成約UPをサポートするのが得意です。<br /><br />
+            作って終わりではなく、長い目で見てお付き合いできる関係を築きたいと思っています。
+            <br /><br />
+            舞台機構の保守を<strong>16年間</strong>続けた経験から、丁寧なヒアリングと確実な実行を大切にしています。<br />
+            技術だけでなく、<strong>なぜそのデザインなのか・どう集客につなげるか</strong>を一緒に考えます。
+          </p>
+          <ul class="about__details">
+            <li><span class="about__detail-label">拠点</span> 埼玉県</li>
+            <li><span class="about__detail-label">開業</span> 2023年〜</li>
+            <li><span class="about__detail-label">得意</span> WordPress, Figma, LP, SEO対策</li>
+            <li><span class="about__detail-label">前職</span> 舞台機構保守エンジニア（16年）</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">相談する（無料）</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICE ========== -->
+  <section class="section price" id="price">
+    <div class="price__bg" aria-hidden="true"></div>
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__en">price</span>
+        <h2 class="section__title">料金プラン</h2>
+      </div>
+
+      <p class="price__note reveal">※ 以下はおおよその目安です。規模・要件によって変動します。まずはご相談ください。</p>
+
+      <div class="price__grid">
+
+        <div class="price-card reveal" data-delay="0">
+          <div class="price-card__header">
+            <span class="price-card__label">BASIC</span>
+            <h3 class="price-card__name">コーポレートサイト</h3>
+          </div>
+          <div class="price-card__price">
+            <span class="price-card__from">〜</span>
+            <span class="price-card__amount">15</span>
+            <span class="price-card__unit">万円〜</span>
+          </div>
+          <ul class="price-card__list">
+            <li>ページ数：5ページ程度</li>
+            <li>WordPress実装</li>
+            <li>レスポンシブ対応</li>
+            <li>お問い合わせフォーム</li>
+            <li>基本SEO設定</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost price-card__btn">相談する</a>
+        </div>
+
+        <div class="price-card price-card--featured reveal" data-delay="1">
+          <div class="price-card__badge">人気</div>
+          <div class="price-card__header">
+            <span class="price-card__label">STANDARD</span>
+            <h3 class="price-card__name">LP / ランディングページ</h3>
+          </div>
+          <div class="price-card__price">
+            <span class="price-card__from">〜</span>
+            <span class="price-card__amount">8</span>
+            <span class="price-card__unit">万円〜</span>
+          </div>
+          <ul class="price-card__list">
+            <li>1ページ完結型</li>
+            <li>Figmaデザイン込み</li>
+            <li>CTA最適化設計</li>
+            <li>アニメーション実装</li>
+            <li>スマホ最適化</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary price-card__btn">相談する</a>
+        </div>
+
+        <div class="price-card reveal" data-delay="2">
+          <div class="price-card__header">
+            <span class="price-card__label">RENEWAL</span>
+            <h3 class="price-card__name">サイトリニューアル</h3>
+          </div>
+          <div class="price-card__price">
+            <span class="price-card__from">〜</span>
+            <span class="price-card__amount">12</span>
+            <span class="price-card__unit">万円〜</span>
+          </div>
+          <ul class="price-card__list">
+            <li>現状分析・ヒアリング込み</li>
+            <li>デザイン一新</li>
+            <li>WordPress移行</li>
+            <li>旧コンテンツ移行</li>
+            <li>速度改善・SEO対策</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost price-card__btn">相談する</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__en">contact</span>
+        <h2 class="section__title">お問い合わせ</h2>
+      </div>
+
+      <p class="contact__lead reveal">
+        ウェブサイトのお悩み、まずは気軽にご相談ください。<br />
+        無料ヒアリングからスタートします。
+      </p>
+
+      <div class="contact__options">
+        <a href="https://lin.ee/YmJ5sT8" target="_blank" rel="noopener noreferrer" class="contact-option contact-option--line reveal" data-delay="0">
+          <div class="contact-option__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="24" cy="24" r="22" fill="#06C755"/>
+              <path d="M38 22.5c0-7.18-7.16-13-16-13S6 15.32 6 22.5c0 6.42 5.68 11.8 13.35 12.82.52.11 1.23.34 1.41.79.16.41.1 1.04.05 1.45l-.23 1.35c-.07.41-.32 1.6 1.4.87 1.72-.73 9.28-5.46 12.67-9.35C36.55 28.17 38 25.47 38 22.5z" fill="white"/>
+              <path d="M20.5 19.5h-1a.5.5 0 00-.5.5v6a.5.5 0 00.5.5h1a.5.5 0 00.5-.5v-6a.5.5 0 00-.5-.5zM27.5 19.5h-1a.5.5 0 00-.5.5v3.57l-2.74-3.84A.5.5 0 0022.85 19.5h-1a.5.5 0 00-.5.5v6a.5.5 0 00.5.5h1a.5.5 0 00.5-.5v-3.57l2.75 3.84a.5.5 0 00.4.23h1a.5.5 0 00.5-.5v-6a.5.5 0 00-.5-.5z" fill="#06C755"/>
+            </svg>
+          </div>
+          <div class="contact-option__body">
+            <span class="contact-option__label">LINE で相談する</span>
+            <span class="contact-option__sub">気軽にメッセージ ↗</span>
+          </div>
+        </a>
+
+        <a href="mailto:contact@ks-portfolio.works" class="contact-option contact-option--mail reveal" data-delay="1">
+          <div class="contact-option__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="24" cy="24" r="22" fill="rgba(192,57,43,0.15)"/>
+              <rect x="10" y="15" width="28" height="18" rx="3" stroke="#C0392B" stroke-width="2"/>
+              <path d="M10 18l14 9 14-9" stroke="#C0392B" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="contact-option__body">
+            <span class="contact-option__label">メールで相談する</span>
+            <span class="contact-option__sub">contact@ks-portfolio.works ↗</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#hero" class="footer__logo">K <span>SAKURAI</span></a>
+      <nav class="footer__nav" aria-label="フッターナビゲーション">
+        <a href="#works">Works</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#price">Price</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__copy">© 2024 K SAKURAI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- LINE Floating Button -->
+  <a href="https://lin.ee/example" target="_blank" rel="noopener noreferrer" class="line-float" aria-label="LINEで問い合わせ">
+    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="28" height="28" aria-hidden="true">
+      <path d="M38 22.5c0-7.18-7.16-13-16-13S6 15.32 6 22.5c0 6.42 5.68 11.8 13.35 12.82.52.11 1.23.34 1.41.79.16.41.1 1.04.05 1.45l-.23 1.35c-.07.41-.32 1.6 1.4.87 1.72-.73 9.28-5.46 12.67-9.35C36.55 28.17 38 25.47 38 22.5z" fill="white"/>
+      <path d="M20.5 19.5h-1a.5.5 0 00-.5.5v6a.5.5 0 00.5.5h1a.5.5 0 00.5-.5v-6a.5.5 0 00-.5-.5zM27.5 19.5h-1a.5.5 0 00-.5.5v3.57l-2.74-3.84A.5.5 0 0022.85 19.5h-1a.5.5 0 00-.5.5v6a.5.5 0 00.5.5h1a.5.5 0 00.5-.5v-3.57l2.75 3.84a.5.5 0 00.4.23h1a.5.5 0 00.5-.5v-6a.5.5 0 00-.5-.5z" fill="#06C755"/>
+    </svg>
+    <span>LINE</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
