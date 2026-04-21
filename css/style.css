@@ -429,9 +429,7 @@ background: url(../asset/cutroom-recruit-top.webp) center/cover no-repeat;
   opacity: 0;
   transition: opacity var(--transition);
 }
-.work-card__overlay.eclat {
-  background: url(../asset/eclat-top.webp) center/cover no-repeat;
-}
+
 .work-card:hover .work-card__overlay { opacity: 1; }
 
 .work-card__view {
